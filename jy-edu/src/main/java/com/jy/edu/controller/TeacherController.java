@@ -6,7 +6,6 @@ import com.jy.edu.service.TeacherService;
 import com.jy.edu.vo.PageResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -37,9 +36,7 @@ public class TeacherController {
 
     @DeleteMapping("/{id}")
     @ApiOperation(value = "根据ID删除讲师")
-    public boolean deleteTeacherById(
-            @ApiParam(name = "id", value = "讲师ID", required = true)
-            @PathVariable("id") String id) {
+    public boolean deleteTeacherById(@PathVariable("id") String id) {
         return teacherService.removeById(id);
     }
 }
