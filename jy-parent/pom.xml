@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>../jy-edu</module>
+        <module>../jy-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -55,6 +56,11 @@
                 <version>${swagger.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.online.jy</groupId>
+                <artifactId>jy-common</artifactId>
+                <version>${jy.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

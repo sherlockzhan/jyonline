@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jy-common/jy-common.iml" filepath="$PROJECT_DIR$/jy-common/jy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jy-edu/jy-edu.iml" filepath="$PROJECT_DIR$/jy-edu/jy-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jy-parent/jy-parent.iml" filepath="$PROJECT_DIR$/jy-parent/jy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jyonline.iml" filepath="$PROJECT_DIR$/.idea/jyonline.iml" />
+    </modules>
+  </component>
+</project>
