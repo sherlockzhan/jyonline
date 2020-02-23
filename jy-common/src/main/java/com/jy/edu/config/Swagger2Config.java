@@ -33,7 +33,7 @@ public class Swagger2Config {
 
     }
 
-    @Bean
+    //@Bean
     public Docket adminApiConfig(){
 
         return new Docket(DocumentationType.SWAGGER_2)
@@ -51,7 +51,7 @@ public class Swagger2Config {
                 .title("网站-课程中心API文档")
                 .description("本文档描述了课程中心微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("炘爷", "https://github.com/sherlockzhan/jyonline", "zxjchu@163.com"))
+                .contact(new Contact("炘爷", "https://github.com/sherlockzhan/jyonline", "zxjnchu@163.com"))
                 .build();
     }
 
@@ -61,7 +61,7 @@ public class Swagger2Config {
                 .title("后台管理系统-课程中心API文档")
                 .description("本文档描述了后台管理系统课程中心微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("炘爷", "https://github.com/sherlockzhan/jyonline", "zxjchu@163.com"))
+                .contact(new Contact("炘爷", "https://github.com/sherlockzhan/jyonline", "zxjnchu@163.com"))
                 .build();
     }
 }

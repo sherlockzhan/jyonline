@@ -1,7 +1,9 @@
 package com.jy.edu.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.jy.edu.entity.Teacher;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.jy.edu.query.TeacherQuery;
 
 /**
  * <p>
@@ -13,4 +15,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface TeacherService extends IService<Teacher> {
 
+    /**
+     * 根据条件进行分页查询
+     * @param param
+     * @param teacherQuery
+     */
+    void pageQuery(Page<Teacher> param, TeacherQuery teacherQuery);
 }
